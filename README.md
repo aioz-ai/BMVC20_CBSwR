@@ -3,6 +3,19 @@ AIOZ BMVC 2020: "Deep Metric Learning Meets DeepClustering: An Novel Unsupervise
 
 This repository is the implementation of `CBSwR` for Unsupervised Deep Metric Learning task. Our model achieved **55.9**, **37.6** on NMI, and **47.5**, **45.6** on R@1 over CUB200-2001 and Car196 datasets, respectively. For the detail, please refer to [link](http://arxiv.xxx).
 
+### Summary
+
+* [The proposed framework](#the-proposed-framework)
+* [Prerequisites](#prerequisites)
+* [Preprocessing](#preprocessing)
+* [Training](#training)
+* [Testing](#testing)
+* [Citation](#citation)
+* [License](#license)
+* [More information](#more-information)
+
+### The proposed framework 
+
 ![Illustration of the proposed framework](misc/best_model.png)
 
 ### Prerequisites
@@ -48,8 +61,8 @@ $ python train.py --dataset car196 --model_name CBSwR_Car196
 The training scores will be printed every epoch.
 
 
-### Pretrained models and Testing
-In this repo, we include the pre-trained weight of CBSwR_CUB200 and CBSwR_Car196.
+### Testing
+In this repo, we include the pre-trained weight of CBSwR_CUB200 and CBSwR_Car196 models.
 
 For `CBSwR_CUB200` pretrained model. Please download the [link](https://drive.google.com/file/d/1PsBSICUabh7NLNXoDZMvxj_6oGu_m7KO/view?usp=sharing) and move to `new_checkpoint`. The trained `CBSwR_CUB200` model can be tested in CUB200 validation set via: 
 ```
@@ -72,3 +85,7 @@ Updating
 ### License
 
 MIT License
+
+### More information
+
+AIOZ AI Homepage: https://ai.aioz.io
