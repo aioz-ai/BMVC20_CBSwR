@@ -1,0 +1,12 @@
+data
+data/
+new_checkpoint
+new_checkpoint/
+.idea
+.idea/
+*.pyc
+*.swp
+*.pkl
+*.sh
+*.pth
+
