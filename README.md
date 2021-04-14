@@ -1,7 +1,7 @@
 # BMVC20 - Deep Metric Learning Meets DeepClustering: An Novel Unsupervised Approach for Feature Embedding
 AIOZ - BMVC 2020: "Deep Metric Learning Meets DeepClustering: An Novel UnsupervisedApproach for Feature Embedding"
 
-This repository is the implementation of `CBSwR` for Unsupervised Deep Metric Learning task. Our model achieved **55.9**, **37.6** on NMI, and **47.5**, **45.6** on R@1 over CUB200-2001 and Car196 datasets, respectively. For the detail, please refer to [link](http://arxiv.xxx).
+This repository is the implementation of `CBSwR` for Unsupervised Deep Metric Learning task. Our model achieved **55.9**, **37.6** on NMI, and **47.5**, **45.6** on R@1 over CUB200-2001 and Car196 datasets, respectively. For the detail, please refer to [link](https://www.bmvc2020-conference.com/assets/papers/0328.pdf).
 
 ### Summary
 
@@ -79,7 +79,12 @@ $ python test.py --dataset car196 --checkpoint_path new_checkpoint/CBSwR_Car196.
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
 
 ```
-Updating
+@inproceedings{aioz_cbswr_bmvc2020,
+  author    = {Nguyen, Binh X and Nguyen, Binh D and Carneiro, Gustavo and Tjiputra, Erman and Tran, Quang D and Do, Thanh-Toan},
+  title     = {Deep Metric Learning Meets Deep Clustering: An Novel Unsupervised Approach for Feature Embedding},
+  booktitle = {BMVC},
+  year      = {2020}}
+}
 ```
 
 ### License
@@ -89,3 +94,5 @@ MIT License
 ### More information
 
 AIOZ AI Homepage: https://ai.aioz.io
+
+AIOZ Network: https://aioz.network
